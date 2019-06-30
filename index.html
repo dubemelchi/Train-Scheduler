@@ -51,16 +51,35 @@
             </div>
             <div class="panel-body">
 
-             <!--Train entry form--> 
+             <!--Train entry form-->
               <form id="main-form">
+
+                <!--Train name-->
                 <div class="form-group">
                   <label for="">Train Name</label>
                   <input type="text" class="form-control" id="trainNameInput">
                 </div>
 
+                <!--Train destination-->
                 <div class="form-group">
-                  
+                  <label for="">Destination</label>
+                  <input type="text" class="form-control" id="destinationInput">
                 </div>
+
+                  <!--First Train-->
+                  <div class="form-group">
+                    <label for="">First Train Time (HH:mm - military time)</label>
+                    <input type="text" class="form-control" id="firstTrainInput">
+                  </div>
+
+                  <!--Frequency-->
+                  <div class="form-group">
+					          <label for="">Frequency (min)</label>
+					          <input type="text" class="form-control" id="frequencyInput">
+                  </div>
+                  
+                  <!--Submit Button-->
+                  <button type="submit" class="btn btn-primary" id="addTrainBtn">Submit</button>
               </form>
             </div>
 
@@ -71,6 +90,17 @@
 
   </div>
 
-  	<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+
+
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <script src="app.js"></script>
+
+
 </body>
 </html>
