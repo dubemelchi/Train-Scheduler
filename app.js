@@ -87,9 +87,9 @@ $(document).ready(function() {
 
       // append data to table/tafula
 
-      $("tbody").append("<tr><td>" + locoName + "</td><td>" + locoDestination + "</td><td>" + nextTime + "</td><td>" + minutesTilTrain + "</td></tr>");
+      $("tbody").append("<tr><td>" + locoName + "</td><td>" + locoDestination + "</td><td>" + locoFrequency + "</td><td>" + nextTime + "</td><td>" + minutesTilTrain + "</td></tr>");
 
-    })
+    });
 
   }
 
